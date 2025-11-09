@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | GoBlixa</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header>
+    <nav class="nav-container">
+      <div class="logo">
+        <img src="GoBlixa.png" alt="logo" width="45" height="45" />
+        GoBlixa
+      </div>
+
+      <button class="menu-toggle" id="menuToggle">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== About Section ===== -->
+  <section class="section">
+    <div class="glass-box">
+      <h1>About <span>GoBlixa</span></h1>
+      <p>
+        At <strong>GoBlixa</strong>, we blend creativity and strategy to help brands
+        stand out in the digital world. We design experiences that inspire, connect,
+        and grow businesses.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Who We Are ===== -->
+  <section class="section">
+    <div class="glass-box">
+      <h2><i class="bi bi-people-fill"></i> Who We Are</h2>
+      <p>
+        We’re a passionate team of designers and marketers who bring bold ideas to life.
+        Every project we take is built with creativity, precision, and purpose.
+      </p>
+      <ul class="about-list">
+        <li><i class="bi bi-lightbulb"></i> Innovation-driven creative thinkers.</li>
+        <li><i class="bi bi-brush"></i> Design experts who craft stunning visuals.</li>
+        <li><i class="bi bi-megaphone"></i> Marketing minds who turn strategies into results.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== What We Do ===== -->
+  <section class="section">
+    <div class="glass-box">
+      <h2><i class="bi bi-tools"></i> What We Do</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <i class="bi bi-palette"></i>
+          <h3>Design</h3>
+          <p>We create stunning logos, posters, and visuals that define your brand identity.</p>
+        </div>
+        <div class="about-card">
+          <i class="bi bi-bullseye"></i>
+          <h3>Marketing</h3>
+          <p>Our marketing strategies drive engagement and growth for your business.</p>
+        </div>
+        <div class="about-card">
+          <i class="bi bi-graph-up"></i>
+          <h3>Branding</h3>
+          <p>We build cohesive, memorable brand stories that connect emotionally.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Vision & Mission ===== -->
+  <section class="section">
+    <div class="glass-box">
+      <h2><i class="bi bi-eye"></i> Our Vision</h2>
+      <p>
+        To be the creative partner for visionary brands — empowering them through originality, 
+        simplicity, and connection.
+      </p>
+
+      <h2><i class="bi bi-bullseye"></i> Our Mission</h2>
+      <p>
+        To transform ideas into visuals that inspire, engage, and make an impact in the digital age.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Our Process ===== -->
+  <section class="section">
+    <div class="glass-box">
+      <h2><i class="bi bi-diagram-3"></i> Our Process</h2>
+      <ul class="about-list">
+        <li><strong>Discover:</strong> Understand your goals and audience.</li>
+        <li><strong>Design:</strong> Visualize creative ideas that inspire.</li>
+        <li><strong>Deliver:</strong> Build with precision and passion.</li>
+        <li><strong>Grow:</strong> Evolve your brand for the future.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== CTA Section ===== -->
+  <section class="section">
+    <div class="glass-box">
+      <h2>Let’s Build Something Great Together</h2>
+      <p>
+        Whether you’re launching your first brand or refreshing your identity,
+        GoBlixa helps you create designs that speak volumes.
+      </p>
+      <a href="contact.html" class="cta-button">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 GoBlixa. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("menuToggle");
+    const nav = document.getElementById("navLinks");
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+      toggle.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
